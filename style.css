@@ -6,6 +6,7 @@ font-family: 'Oswald', sans-serif;*/
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 body{
@@ -67,7 +68,46 @@ color: rgb(187, 187, 187);
   top: 0;
   right: 0;
   left: 0;
-  z-index: 5;
+  z-index: 100;
+}
+
+.menu-open{
+  background-color: rgba(0, 0, 0, 0.466);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  min-height: 100vh;
+  max-height: 100vh;
+  display: none;
+  z-index: 99;
+  transition: all 1s ease-in-out
+}
+
+.menu-area{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: black;
+  position: fixed;
+  top: 8%;
+  right: 0;
+  height: 100vh;
+  width: 40%;
+  z-index: 99;
+  transition: all 1s ease-in-out
+}
+
+.menu-area a{
+  margin-top: 6% ;
+  text-decoration: none;
+  font-size: 20px;
+  color: rgb(233, 233, 233);
+}
+
+.menu-area a:hover{
+  border-bottom: 3px solid rgb(228, 228, 228);
+
 }
 
 .header-search input{
