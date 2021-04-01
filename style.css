@@ -192,7 +192,6 @@ color: rgb(187, 187, 187);
 }
 
 .area2-img1{
-  background-color: violet;
   background-image: url('./assets/f4.jpg');
   background-position: center;
   background-size: cover;
@@ -201,7 +200,6 @@ color: rgb(187, 187, 187);
 }
 
 .area2-img2{
-  background-color: turquoise;
   background-image: url('./assets/f3.jpg');
   background-position: center;
   background-size: cover;
@@ -215,4 +213,88 @@ color: rgb(187, 187, 187);
   justify-content: space-evenly;
   margin-left: 20%;
   margin-right: 20%;
+}
+
+.area3 {
+  min-height: 91.5vh;
+  display: flex;
+}
+
+.area3-content{
+  background-image: url('./assets/bg2.jpg');
+  background-position: left;
+  background-size: cover;
+  width: 50%;
+  order: 1;
+}
+
+.area3-content-text{
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.area3-content-text div, .area3-content-text h2, .area3-content-text a {
+  margin-top: 15%;
+}
+
+.area3-img{
+  background-image: url('./assets/f5.jpg');
+  background-size: cover;
+  background-position: center;
+  width: 50%;
+  order: 2;
+}
+
+.area4{
+  min-height: 91.5vh;
+  background: rgba(0, 0, 0, 0.993);
+  background-position: right;
+  position: relative;
+  
+}
+
+.area4-content{
+  display: flex;
+  flex-direction: column;
+  margin-left: 60%;
+  margin-right: 10%;
+  position: absolute;
+  opacity: 1 !important;
+
+}
+
+.area4-content div, .area4-content h2, .area4-content a {
+  margin-top: 10%;
+}
+
+.area4-bg {
+  background-image: url('./assets/bg3.jpg');
+  position: absolute;
+  opacity: .5;
+  background-position: right;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+}
+
+#bar-a4{
+  background: rgb(241, 241, 241);
+}
+
+.text-a4{
+  color: rgb(243, 243, 243);
+  text-shadow: 1px 1px 5px black;
+}
+
+.btn-a4{
+ border: 3px solid rgb(240, 240, 240);
+}
+
+.btn-a4:hover{
+  background: rgb(235, 235, 235);
+  color: rgb(53, 53, 53);
+  text-shadow: 0 0 0;
 }
