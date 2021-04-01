@@ -67,6 +67,7 @@ color: rgb(187, 187, 187);
   top: 0;
   right: 0;
   left: 0;
+  z-index: 5;
 }
 
 .header-search input{
@@ -271,6 +272,7 @@ color: rgb(187, 187, 187);
 }
 
 .area4-bg {
+  min-height: 91.5vh;
   background-image: url('./assets/bg3.jpg');
   position: absolute;
   opacity: .5;
@@ -297,4 +299,58 @@ color: rgb(187, 187, 187);
   background: rgb(235, 235, 235);
   color: rgb(53, 53, 53);
   text-shadow: 0 0 0;
+}
+
+footer{
+  text-align: center;
+  line-height: 50px;
+}
+
+@media (min-width: 769px) and (max-width: 1440px){
+  .container{
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+@media (min-width:431px) and (max-width: 770px){
+  .area1-content, .area2-content, .area3-content-text{
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+
+  .area4-content{
+    margin-left: 50%;
+    margin-right: 5%;
+  }
+}
+
+@media (max-width: 430px){
+ .banner-images img {
+   margin-left: 25%;
+   margin-right: 25%;
+ }
+
+ .area4-content{
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.area1-content, .area2-content, .area3-content-text{
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.area1 {
+  grid-template-columns: 2.8fr 1fr;
+}
+.area2 {
+  grid-template-columns: 1fr 2.8fr ;
+}
+
+.area3-content{
+flex: 2.4;
+}
+.area3-img{
+  flex: 1;
+}
 }
