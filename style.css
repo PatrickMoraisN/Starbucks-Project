@@ -88,7 +88,7 @@ color: rgb(187, 187, 187);
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: black;
+  background-color: rgb(34, 34, 34);
   position: fixed;
   top: 8%;
   right: 0;
@@ -363,6 +363,10 @@ footer{
     margin-left: 50%;
     margin-right: 5%;
   }
+
+  .menu-area{
+    width: 70%;
+  }
 }
 
 @media (max-width: 430px){
@@ -370,6 +374,10 @@ footer{
    margin-left: 25%;
    margin-right: 25%;
  }
+
+ .menu-area{
+  width: 70%;
+}
 
  .area4-content{
   margin-left: 5%;
