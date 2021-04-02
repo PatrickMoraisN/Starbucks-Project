@@ -349,8 +349,8 @@ footer{
 
 @media (min-width: 771px) and (max-width: 1440px){
   .container{
-    padding-left: 60px;
-    padding-right: 60px;
+    padding-left: 20px;
+    padding-right: 20px;
   }
 }
 
@@ -359,68 +359,58 @@ footer{
     margin-left: 10%;
     margin-right: 10%;
   }
-
   .area4-content{
     margin-left: 50%;
     margin-right: 5%;
   }
-
   .menu-area{
     padding-top: 30%;
     width: 70%;
   }
-
   .container{
-    padding-left: 60px;
-    padding-right: 60px;
+    padding-left: 20px;
+    padding-right: 20px;
   }
 }
 
 @media (min-width: 0) and (max-width: 430px){
- .banner-images img {
-   margin-left: 25%;
-   margin-right: 25%;
- }
-
- .header-search input{
-  width: 100%;
-  width: 200px;
- }
-
- .header-menu img{
-  margin-left: 50%;
- }
-
- .container{
-  padding-left: 60px;
-  padding-right: 60px;
-}
-
- .menu-area{
-  padding-top: 30%;
-  width: 70%;
-}
-
- .area4-content{
-  margin-left: 5%;
-  margin-right: 5%;
-}
-.area1-content, .area2-content, .area3-content-text{
-  margin-left: 5%;
-  margin-right: 5%;
-}
-
-.area1 {
-  grid-template-columns: 2.8fr 1fr;
-}
-.area2 {
-  grid-template-columns: 1fr 2.8fr ;
-}
-
-.area3-content{
-flex: 2.4;
-}
-.area3-img{
-  flex: 1;
-}
+  .banner-images img {
+    margin-left: 25%;
+    margin-right: 25%;
+  }
+  .header-search input{
+    width: 100%;
+    width: 200px;
+  }
+  .header-menu img{
+    margin-left: 50%;
+  }
+  .container{
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .menu-area{
+    padding-top: 30%;
+    width: 70%;
+  }
+  .area4-content{
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  .area1-content, .area2-content, .area3-content-text{
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  .area1 {
+    grid-template-columns: 2.8fr 1fr;
+  }
+  .area2 {
+    grid-template-columns: 1fr 2.8fr ;
+  }
+  .area3-content{
+  flex: 2.4;
+  }
+  .area3-img{
+    flex: 1;
+  }
 }
