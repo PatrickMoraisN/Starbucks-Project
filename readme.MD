@@ -2,8 +2,8 @@
 ## A study project inspired by Starbucks that simulates a responsive landing page. I hope you enjoy!  :grin:
 
 <div align="center">
-  <img src="./assets/st1.gif" alt="demo-web" height="400">
-  <img src="./assets/st2.gif" alt="demo-web" height="430">
+  <img src="./st1.gif" alt="demo-web" height="400">
+  <img src="./st2.gif" alt="demo-web" height="430">
 </div>
 <br><br>
 
