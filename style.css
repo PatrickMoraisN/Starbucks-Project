@@ -90,6 +90,7 @@ color: rgb(187, 187, 187);
   align-items: center;
   background-color: rgb(34, 34, 34);
   position: fixed;
+padding-top: 30%;
   top: 8%;
   right: 0;
   height: 100vh;
