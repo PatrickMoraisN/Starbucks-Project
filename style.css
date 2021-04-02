@@ -90,7 +90,7 @@ color: rgb(187, 187, 187);
   align-items: center;
   background-color: rgb(34, 34, 34);
   position: fixed;
-  padding-top: 30%;
+  padding-top: 10%;
   top: 8%;
   right: 0;
   height: 100vh;
@@ -371,7 +371,7 @@ footer{
   }
 }
 
-@media (max-width: 430px){
+@media (min-width: 0) and (max-width: 430px){
  .banner-images img {
    margin-left: 25%;
    margin-right: 25%;
